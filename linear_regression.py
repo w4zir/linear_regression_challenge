@@ -29,4 +29,3 @@ plt.plot(x_values, body_reg.predict(x_values))
 plt.scatter(rand_x, rand_y, color='g')
 plt.scatter(rand_x, body_reg.predict(rand_x), color='r')
 plt.show()
-
